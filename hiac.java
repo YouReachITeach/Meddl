@@ -7,4 +7,9 @@ public class hiac {
         this.name = name;
         this.alter = alter;
     }
+
+    @Override
+    public String toString() {
+        return name + " ist " + alter + " Jahre alt.";
+    }
 }
